@@ -3,7 +3,7 @@
 
 /*
  * argc: The length of the argv array below
- * argv: Array of strings: argv[0] holds the program name as a string; the remaining indices hold the actual command-line arguments
+ * argv: Array of stings: argv[0] holds the program name as a string; the remaining indices hold the actual command-line arguments
  */
 int main(int argc, char *argv[]) {
     int num_args = argc - 1; // argv[0] is program name
